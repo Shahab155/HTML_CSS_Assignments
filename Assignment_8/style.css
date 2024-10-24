@@ -1,192 +1,170 @@
 * {
-    margin:0px;
-    padding:0px;
-   
+  margin: 0px;
+  padding: 0px;
 }
-
 
 .navbar {
-    background-color: #0B192C;
-    
-    height: 80px;
-    border-radius: 10px;
-   }
+  background-color: #0b192c;
+
+  height: 80px;
+  border-radius: 10px;
+}
 
 .nav-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    gap: 30px;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  gap: 30px;
 }
 a:hover {
-    background-color:white ;
-    padding: 20px;
-    color: black;
-    border-radius:10px;
-    font-weight: 700;
-} 
-
+  background-color: white;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+  font-weight: 700;
+}
 
 .panaImg {
-    border-radius: 10px;
-    position: absolute;
-    left:30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 30px;
 }
 
 a {
-    text-decoration: none;
-   color: white;
+  text-decoration: none;
+  color: white;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
- .image {
-
-    height: 350px;
-    width: 90%;
-    margin:20px
-
-   
-    }
+.image {
+  height: 350px;
+  width: 90%;
+  margin: 20px;
+}
 
 .myPara {
-    margin-top: 25px;
-    font-size:1.5rem;
-    margin-left: 20px;
-   
-  
-    
-}    
-
-
-.footer-div {
-    
-    height: 40px;
-    width: 100%;
-    border: 1px solid black;
-    border-radius:5px ;
-    margin-top: 25px;
-    background-color: #0B192C;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  margin-top: 25px;
+  font-size: 1.5rem;
+  margin-left: 20px;
 }
 
+.footer-div {
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 25px;
+  background-color: #0b192c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/*about section  */
+/*-----about section -----  */
 .profile-div {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-      
-  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .profile-para {
-   font-size:1.5rem;
-   margin-top: 20px;
-    margin-left: 20px;
-  
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .profile-para2 {
-    font-size: 1.5rem;
-    margin-left: 25px;
-    margin-top: 10px;
-    
-   
+  font-size: 1.5rem;
+  margin-left: 25px;
+  margin-top: 10px;
 }
 
 .image2 {
-    margin-right: 40px ;
-    gap:10px;
-    border-radius: 5px;
+  margin-right: 40px;
+  gap: 10px;
+  border-radius: 5px;
 
-    box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px black;
 }
 
 .ab-list {
-    font-size: 1.5rem;
-    margin-top: 10px;
-    margin-left: 50px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 .ab-list li {
-    list-style-type:disc;
+  list-style-type: disc;
 }
 
 .iframe-piaic {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 /* ---- portfolio -------------------*/
 .portfolio-div {
-    display: flex;
-    margin-top:20px;
-    margin-left: 30px;
-
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
 .port-para {
-    font-size: 20px;
-    margin-left: 15px;
-    margin-top: 5px;
-    
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 5px;
 }
 
 /* -----------------Contact form ----------------------------- */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
 }
 label {
-    display: block;
-    
-} 
+  display: block;
+}
 
 input {
-    height: 50px;
-    width: 500px;
-    margin-top: 10px;
+  height: 50px;
+  width: 500px;
+  margin-top: 10px;
 }
 
 button {
-    background-color: rgb(24, 24, 45);
-    color:white;
-    height: 50px;
-    width: 150px;
-    border-radius: 10px;
-    margin-left: 170px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  background-color: rgb(24, 24, 45);
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  margin-left: 170px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 textarea {
-    width: 500px;
-    height: 120px;
-    margin-top: 10px;
+  width: 500px;
+  height: 120px;
+  margin-top: 10px;
 }
 
 .map {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    margin-top:20px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
- .map h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
- }
+.map h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
